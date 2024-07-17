@@ -1,2 +1,2 @@
-Project intends to develop skills building API's with MongoDb.
-Worked with Postman
+Project intends to develop skills building API's, create routes, manipulate data 
+Created using MongoDB, Postman, Express.json., Mongoose.js.
