@@ -14,7 +14,10 @@ router.get('/:id', async (req, res) => {
     try {
 const oneFruit = await Fruit.findById(req.params.id)
 res.json(oneFruit);
+}catch{error}
+console.log("Something went wrong connecting to router")
 });
+
 
 //new - GET
 
