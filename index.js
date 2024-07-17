@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 const PORT = process.env.PORT
 const conn = require("./db/conn")
-const fruitRoutes = require('./routes/fruits')
+const fruitRoutes = require('./routes/fruits.')
 const Fruit = require('./models/fruit')
 const starterFruits = require('./db/seed')
 conn()
